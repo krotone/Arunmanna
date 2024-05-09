@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-attachment: fixed;
+    color: #c5c6c7;
+    height: 80vh
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    float: right
+}
+
+.rit {
+    margin: 20px;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em
+}
+
+.intro .det {
+    margin: 0;
+}
+
+.det img {
+    position: relative;
+}
+
+.det #nam {
+    position: absolute;
+}
+
+.nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 8.5vh
+}
+
+.botton {
+    padding-right: 14px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: inherit;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    transform: translateX(-4px) translateY(-4px) translateZ(2px);
+}
+
+.resume-wrapper {
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.intro {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.det {
+    margin: 0px;
+}
+
+.det h1,
+p {
+    display: block;
+}
+
+#propic {
+    border-radius: 5%;
+    display: flex;
+    float: right
+}
+
+#name {
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8em;
+}
+
+.table,
+td,
+th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100vh;
+}
+
+section {
+    padding: 10px
+}
+
+#education,
+#experience,
+#fellowships,
+#leadership,
+#membership,
+#referance,
+#work-experience,
+#workshop {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #00adb5;
+    border-radius: 25px;
+    font-size: large;
+    text-decoration: none;
+    color: #c5c6c7;
+    font-size: 1em
+}
+
+.detail {
+    align-self: center;
+    font-size: 1.5em
+}
+
+h2 {
+    font-size: 1.8em
+}
