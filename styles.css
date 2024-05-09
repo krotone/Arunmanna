@@ -4,47 +4,33 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(to top, #30cfd0 0, #330867 100%);
     background-attachment: fixed;
     color: #c5c6c7;
-    height: 80vh
+    height: 80vh;
 }
 
 .menu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    float: right
+    float: right;
 }
 
 .rit {
     margin: 20px;
     color: inherit;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
-    font-size: 1.1em
-}
-
-.intro .det {
-    margin: 0;
-}
-
-.det img {
-    position: relative;
-}
-
-.det #nam {
-    position: absolute;
+    font-size: 1.1em;
 }
 
 nav {
     background-color: transparent;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     position: sticky;
     width: 100%;
-    top: 0;
     height: 8.5vh;
 }
 
@@ -53,7 +39,7 @@ nav {
     text-decoration: none;
     font-size: 1.2em;
     color: inherit;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .menu a:hover {
@@ -62,7 +48,7 @@ nav {
 
 .resume-wrapper {
     margin: auto;
-    padding: 20px;
+    padding: 2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
@@ -71,11 +57,10 @@ nav {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
 }
 
 .det {
-    margin: 0px;
+    margin: 0;
 }
 
 .det h1,
@@ -86,12 +71,12 @@ p {
 #propic {
     border-radius: 5%;
     display: flex;
-    float: right
+    float: right;
 }
 
 #name {
-    background: #121FCF;
-    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: #121fcf;
+    background: linear-gradient(to right, #121fcf 0, #cf1512 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -104,10 +89,11 @@ th {
     border: 1px solid #000;
     border-collapse: collapse;
     width: 100vh;
+    border-radius: 5px;
 }
 
 section {
-    padding: 10px
+    padding: 10px;
 }
 
 #education,
@@ -118,21 +104,20 @@ section {
 #referance,
 #work-experience,
 #workshop {
-    margin: 20px 0;
-    padding: 20px;
-    border-left: 5px solid #00adb5;
+    margin: 1em;
+    border-left: 5px solid #330867;
     border-radius: 25px;
     font-size: large;
     text-decoration: none;
     color: #c5c6c7;
-    font-size: 1em
+    font-size: 1em;
 }
 
 .detail {
-    align-self: center;
-    font-size: 1.5em
+    text-align: left;
+    font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.8em
+    font-size: 2em;
 }
