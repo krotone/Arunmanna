@@ -37,7 +37,7 @@ body {
     position: absolute;
 }
 
-.nav {
+nav {
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ body {
     position: sticky;
     width: 100%;
     top: 0;
-    height: 8.5vh
+    height: 8.5vh;
 }
 
 .botton {
