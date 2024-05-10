@@ -11,14 +11,12 @@ body {
 }
 
 .home {
-    margin: 20px;
     color: inherit;
     font-weight: 700;
     text-decoration: none;
     font-size: 1.1em;
-    float: left;
     text-transform: uppercase;
-    align-content: center;
+    align-self: flex-start;
 }
 
 .nav {
@@ -26,6 +24,8 @@ body {
     text-transform: capitalize;
     justify-content: space-between;
     display: flex;
+    align-items: flex-end;
+    padding: 20px;
 }
 
 .botton {
@@ -41,7 +41,6 @@ body {
     align-items: center;
     justify-content: flex-end;
     align-content: center;
-    margin: 20px;
 }
 
 .menu a:hover {
@@ -106,7 +105,7 @@ section {
     margin: 1em;
     border-left: 5px solid #330867;
     border-radius: 25px;
-    color: #c5c6c7;
+    color: inherit;
     font-size: 1em;
     text-transform: capitalize;
     padding-left: 15px;
