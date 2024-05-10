@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    background-image: linear-gradient(to top, #30cfd0 0, #330867 100%);
     background-attachment: fixed;
     color: #c5c6c7;
     height: 80vh;
