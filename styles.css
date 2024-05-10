@@ -18,15 +18,14 @@ body {
     font-size: 1.1em;
     float: left;
     text-transform: uppercase;
+    align-content: center;
 }
 
 .nav {
-    
     position: sticky;
     text-transform: capitalize;
     justify-content: space-between;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .botton {
@@ -41,7 +40,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    float: right;
+    align-content: center;
+    margin: 20px;
 }
 
 .menu a:hover {
@@ -55,10 +55,9 @@ body {
 
 .intro {
     height: 100vh;
-    display: grid;
+    display: flex;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-content: space-evenly;
 }
 
 #propic {
@@ -73,6 +72,7 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 8em;
     text-transform: uppercase;
+    margin-right: 10%;
 }
 
 .table,
@@ -111,7 +111,6 @@ section {
     text-transform: capitalize;
     padding-left: 15px;
     padding-bottom: 10px;
-
 }
 
 .detail {
