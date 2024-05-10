@@ -21,7 +21,7 @@ body {
 }
 
 .nav {
-    background-color: transparent;
+    
     position: sticky;
     text-transform: capitalize;
     justify-content: space-between;
@@ -98,14 +98,19 @@ section {
 #referance,
 #work-experience,
 #workshop {
+    background: rgba(3, 3, 3, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     margin: 1em;
     border-left: 5px solid #330867;
     border-radius: 25px;
     color: #c5c6c7;
     font-size: 1em;
     text-transform: capitalize;
-    width: 100vh;
-
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 .detail {
