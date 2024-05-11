@@ -129,7 +129,9 @@ h2 {
     .nav, .menu {
         flex-direction: column; /* Stack nav items vertically */
     }
-
+    .table {
+        overflow-x: auto;
+    }
     .botton, .home, .menu a {
         font-size: 1em; /* Adjust button and link sizes for mobile */
     }
