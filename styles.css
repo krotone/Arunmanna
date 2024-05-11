@@ -119,35 +119,4 @@ h2 {
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Adjust font size for mobile */
-    }
-    .intro {
-        height: fit-content;
-    }
-    .nav, .menu {
-        flex-direction: column; /* Stack nav items vertically */
-    }
-    .table {
-        overflow-x: auto;
-        width: 100%;
-    }
-    .botton, .home, .menu a {
-        font-size: 1em; /* Adjust button and link sizes for mobile */
-    }
 
-    #name {
-        font-size: 4em; /* Adjust name size for mobile */
-    }
-    .resume-wrapper, .intro, .table, #education, #experience, #fellowships, #leadership, #membership, #referance, #work-experience, #workshop {
-        width: 100%; /* Full width on mobile */
-        padding: 5%; /* Adjust padding for mobile */
-        flex-wrap: wrap;
-    }
-
-    #propic {
-        width: 50%; /* Adjust profile picture size for mobile */
-        margin: 0 auto; /* Center profile picture */
-    }
-}
