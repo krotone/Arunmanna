@@ -112,6 +112,7 @@ th {
 
 .detail {
     font-size: 1.5em;
+    overflow-x: auto;
 }
 
 h2 {
