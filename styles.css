@@ -30,6 +30,8 @@ body {
     align-items: flex-end;
     padding: 1.4em;
     overflow-x: auto;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .botton {
