@@ -19,8 +19,6 @@ body {
     text-transform: uppercase;
     align-self: flex-start;
     padding-top: 0.8em;
-    position:fixed;
-    z-index: 1;
 }
 
 .nav {
