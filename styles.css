@@ -131,6 +131,7 @@ h2 {
     }
     .table {
         overflow-x: auto;
+        width: 100%;
     }
     .botton, .home, .menu a {
         font-size: 1em; /* Adjust button and link sizes for mobile */
