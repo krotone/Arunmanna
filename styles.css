@@ -121,5 +121,8 @@ h2 {
     font-size: 2em;
 }
 
-
-
+.detail::-webkit-scrollbar,
+.nav::-webkit-scrollbar,
+.intro::-webkit-scrollbar {
+    display: none;
+}
