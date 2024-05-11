@@ -123,7 +123,9 @@ h2 {
     body {
         font-size: 14px; /* Adjust font size for mobile */
     }
-
+    .intro {
+        height: fit-content;
+    }
     .nav, .menu {
         flex-direction: column; /* Stack nav items vertically */
     }
