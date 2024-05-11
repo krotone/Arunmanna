@@ -20,6 +20,7 @@ body {
     align-self: flex-start;
     padding-top: 0.8em;
     position:fixed;
+    z-index: 1;
 }
 
 .nav {
@@ -115,7 +116,6 @@ th {
     width: 100%;
     padding-bottom: 0.8em;
     position: relative;
-    z-index: -999;
 }
 
 .detail {
