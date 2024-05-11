@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: flex-end;
     padding: 1.4em;
+    overflow-x: auto;
 }
 
 .botton {
@@ -59,6 +60,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow-x: auto;
 }
 
 #propic {
