@@ -138,6 +138,7 @@ h2 {
     .resume-wrapper, .intro, .table, #education, #experience, #fellowships, #leadership, #membership, #referance, #work-experience, #workshop {
         width: 100%; /* Full width on mobile */
         padding: 5%; /* Adjust padding for mobile */
+        flex-wrap: wrap;
     }
 
     #propic {
