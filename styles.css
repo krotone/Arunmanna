@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     color: #c5c6c7;
     height: 80vh;
+    cursor: default;
 }
 
 .home {
@@ -17,6 +18,7 @@ body {
     font-size: 1.1em;
     text-transform: uppercase;
     align-self: flex-start;
+    padding-top: 0.8em;
 }
 
 .nav {
@@ -25,11 +27,11 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
-    padding: 20px;
+    padding: 1.4em;
 }
 
 .botton {
-    padding-right: 14px;
+    margin-left: 0.8em;
     text-decoration: none;
     font-size: 1.2em;
     color: inherit;
@@ -45,11 +47,11 @@ body {
 
 .menu a:hover {
     transform: translateX(-4px) translateY(-4px) translateZ(2px);
+    cursor: pointer;
 }
 
 .resume-wrapper {
     padding: 2em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .intro {
@@ -71,23 +73,19 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 8em;
     text-transform: uppercase;
-    margin-right: 10%;
+    padding: 10%;
 }
 
 .table,
 td,
 th {
-    border: 1px solid #000;
+    border: 0.08em solid #000;
     border-collapse: collapse;
     width: 100vh;
-    border-radius: 5px;
-    padding-left: 15px;
+    border-radius: 0.4em;
+    padding-left: 1.2em;
 }
 
-
-section {
-    padding: 10px;
-}
 
 #education,
 #experience,
@@ -98,18 +96,18 @@ section {
 #work-experience,
 #workshop {
     background: rgba(3, 3, 3, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    margin: 1em;
-    border-left: 5px solid #330867;
-    border-radius: 25px;
-    color: inherit;
+    box-shadow: 0 0.64em 2.56em 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.24em);
+    border: 0.08em solid rgba(255, 255, 255, 0.18);
+    margin: 0.08em;
+    border-left: 0.4em solid #330867;
+    border-radius: 2em;
+    color: #c5c6c7;
     font-size: 1em;
     text-transform: capitalize;
-    padding-left: 15px;
-    padding-bottom: 10px;
+    padding-left: 1.2em;
+    width: 100%;
+    padding-bottom: 0.8em;
 }
 
 .detail {
