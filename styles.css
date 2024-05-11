@@ -117,3 +117,31 @@ th {
 h2 {
     font-size: 2em;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
+    .nav, .menu {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    .botton, .home, .menu a {
+        font-size: 1em; /* Adjust button and link sizes for mobile */
+    }
+
+    #name {
+        font-size: 4em; /* Adjust name size for mobile */
+    }
+    .resume-wrapper, .intro, .table, #education, #experience, #fellowships, #leadership, #membership, #referance, #work-experience, #workshop {
+        width: 100%; /* Full width on mobile */
+        padding: 5%; /* Adjust padding for mobile */
+    }
+
+    #propic {
+        width: 50%; /* Adjust profile picture size for mobile */
+        margin: 0 auto; /* Center profile picture */
+    }
+}
