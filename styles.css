@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: #e8e8f3;
-    color: #696767;
+    color: #2f2d2d;
     cursor: default;
 }
 
@@ -44,7 +44,7 @@ body {
     line-height: 45px;
     padding: 0 14px;
     text-decoration: none;
-    color: #696767;
+    color: #2f2d2d;
     font-size: 16px;
 }
 
@@ -81,7 +81,7 @@ body {
 
 #menu label:before {
     font-size: 1.6em;
-    color: #696767;
+    color: #2f2d2d;
     content: "\2261";
     margin-left: 20px;
 }
@@ -103,7 +103,7 @@ body {
 }
 
 #menu ul.sub-menus a {
-    color: #e8e8f3;
+    color: #2f2d2d;
     font-size: 16px;
 }
 
@@ -113,7 +113,7 @@ body {
 
 #menu ul.sub-menus a:hover {
     background: #F2F2F2;
-    color: #444444;
+    color: #2f2d2d;
 }
 
 @media screen and (max-width: 800px) {
@@ -161,7 +161,7 @@ body {
     }
 
     #menu input:checked+label {
-        color: #696767
+        color: #2f2d2d
     }
 
     #menu input:checked+label:before {
@@ -231,7 +231,7 @@ th {
     margin: 0.08em;
     border-left: 0.4em solid #330867;
     border-radius: 2em;
-    color: #696767;
+    color: #2f2d2d;
     font-size: 1em;
     text-transform: capitalize;
     padding-left: 1.2em;
