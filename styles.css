@@ -4,53 +4,84 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    background-image: linear-gradient(to top, #30cfd0 0, #330867 100%);
-    background-attachment: fixed;
-    color: #c5c6c7;
-    height: 80vh;
+    background-color: #e8e8f3;
+    color: #696767;
     cursor: default;
 }
 
-.home {
-    color: inherit;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    align-self: flex-start;
-    padding-top: 0.8em;
-}
-
-.nav {
-    position: sticky;
-    text-transform: capitalize;
-    justify-content: space-between;
-    display: flex;
-    align-items: flex-end;
-    padding: 1.4em;
-    overflow-x: auto;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.botton {
-    margin-left: 0.8em;
-    text-decoration: none;
-    font-size: 1.2em;
-    color: inherit;
-    transition: all .3s ease-in-out;
-}
-
 #menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    align-content: center;
+    background: #e8e8f3;
+    height: 45px;
+    padding-right: 18px;
+    border-radius: 10px;
 }
 
-#menu a:hover {
-    transform: translateX(-4px) translateY(-4px) translateZ(2px);
-    cursor: pointer;
+#menu ul,
+#menu li {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+
+#menu ul {
+    width: 100%;
+    text-align: right;
+}
+
+#menu li {
+    position: relative;
+    transition: all .2s ease;
+    letter-spacing: .025em;
+    font-size: 1rem;
+    border-color: #d1d9e6;
+    display: inline-block;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border-radius: 10px;
+}
+
+#menu a {
+    display: block;
+    line-height: 45px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #696767;
+    font-size: 16px;
+}
+
+#menu a.dropdown-arrow:after {
+    content: "\25BE";
+    margin-left: 5px;
+}
+
+#menu li a:hover {
+    color: #31344b;
+    background-color: #e6e7ee;
+    border-color: #e6e7ee;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #menu {
+        position: relative
+    }
+
+    #menu ul {
+        background: #444444;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        height: auto;
+        display: none;
+        text-align: left;
+    }
+    #menu li {
+        display: block;
+        float: none;
+        width: auto;
+    }
 }
 
 .resume-wrapper {
@@ -70,6 +101,10 @@ body {
     border-radius: 5%;
     display: flex;
     float: right;
+    background: #e8e8f3;
+    -webkit-box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
+    box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
+
 }
 
 #name {
@@ -100,19 +135,20 @@ th {
 #referance,
 #work-experience,
 #workshop {
-    background: rgba(3, 3, 3, 0.3);
-    box-shadow: 0 0.64em 2.56em 0 rgba(31, 38, 135, 0.37);
+    background: #e8e8f3;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     backdrop-filter: blur(0.24em);
     border: 0.08em solid rgba(255, 255, 255, 0.18);
     margin: 0.08em;
     border-left: 0.4em solid #330867;
     border-radius: 2em;
-    color: #c5c6c7;
+    color: #696767;
     font-size: 1em;
     text-transform: capitalize;
     padding-left: 1.2em;
     width: 100%;
     padding-bottom: 0.8em;
+    margin-bottom: 5%;
 }
 
 .detail {
