@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,14 +11,20 @@ body {
 
 #menu {
     background: #e8e8f3;
-    height: 45px;
-    padding-right: 18px;
-    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: white;
+    justify-content: end;
+    font-size: large;
+    height: 40px;
 }
 
 #menu ul,
 #menu li {
     margin: 0 auto;
+    background-color: #e8e8f3;
     padding: 0;
     list-style: none
 }
@@ -48,14 +54,15 @@ body {
     font-size: 16px;
 }
 
-#menu li a:hover {
+#menu li a:hover,
+a:active {
     color: #31344b;
     background-color: #e6e7ee;
     border-color: #e6e7ee;
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
     border-radius: 10px;
 }
-
+
 .resume-wrapper {
     padding: 2em;
 }
@@ -63,10 +70,13 @@ body {
 .intro {
     height: 100vh;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#photo {
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    overflow-x: auto;
-    overflow-y: hidden;
 }
 
 #propic {
@@ -80,12 +90,13 @@ body {
 }
 
 #name {
-    background: linear-gradient(to right, #121fcf 0, #cf1512 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 8em;
-    text-transform: uppercase;
-    padding: 10%;
+    font-size: 150px;
+    color: rgb(48, 44, 44);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow:
+    12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
+    caret-color: #262626;
+    outline: none;
 }
 
 .table,
