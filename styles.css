@@ -95,9 +95,9 @@ a:active {
 #name {
     font-size: 150px;
     color: rgb(48, 44, 44);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-shadow:
-    12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
+        12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
     caret-color: #262626;
     outline: none;
 }
