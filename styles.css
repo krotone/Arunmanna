@@ -9,6 +9,7 @@ body {
     cursor: default;
     margin: 0;
     padding: 0;
+    font-size: medium;
 }
 
 #menu {
@@ -29,7 +30,7 @@ body {
     margin: 0 auto;
     background-color: #e8e8f3;
     padding: 0;
-    list-style: none
+    list-style: none;
 }
 
 #menu ul {
@@ -58,7 +59,7 @@ body {
 }
 
 #menu li a:hover,
-a:active {
+#menu a:active { /* Fixed selector specificity for a:active */
     color: #31344b;
     background-color: #e6e7ee;
     border-color: #e6e7ee;
@@ -89,15 +90,13 @@ a:active {
     background: #e8e8f3;
     -webkit-box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
     box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
-
 }
 
 #name {
     font-size: 150px;
     color: rgb(48, 44, 44);
     font-family: 'Times New Roman', Times, serif;
-    text-shadow:
-        12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
+    text-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
     caret-color: #262626;
     outline: none;
 }
@@ -111,7 +110,6 @@ th {
     border-radius: 0.4em;
     padding-left: 1.2em;
 }
-
 
 #education,
 #experience,
