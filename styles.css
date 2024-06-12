@@ -9,44 +9,37 @@ body {
     cursor: default;
     margin: 0;
     padding: 0;
-    font-size: medium;
 }
 
 #menu {
-    background: #e8e8f3;
     position: sticky;
     top: 0;
     left: 0;
     display: flex;
-    color: white;
     justify-content: end;
-    font-size: large;
+    display: flex;
     height: 40px;
     z-index: 9999;
-}
-
-#menu ul,
-#menu li {
-    margin: 0 auto;
-    background-color: #e8e8f3;
-    padding: 0;
-    list-style: none;
 }
 
 #menu ul {
     width: 100%;
     text-align: right;
+    margin: 0;
 }
 
 #menu li {
     position: relative;
     transition: all .2s ease;
     letter-spacing: .025em;
-    font-size: 1rem;
     border-color: #d1d9e6;
     display: inline-block;
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border-radius: 10px;
+    margin: 0 auto;
+    background-color: #e8e8f3;
+    padding: 0;
+    list-style: none;
 }
 
 #menu a {
@@ -55,11 +48,10 @@ body {
     padding: 0 14px;
     text-decoration: none;
     color: #2f2d2d;
-    font-size: 16px;
 }
 
 #menu li a:hover,
-#menu a:active { /* Fixed selector specificity for a:active */
+#menu a:active {
     color: #31344b;
     background-color: #e6e7ee;
     border-color: #e6e7ee;
@@ -72,15 +64,24 @@ body {
 }
 
 .intro {
-    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
+
+#item1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #photo {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 #propic {
@@ -88,7 +89,6 @@ body {
     display: flex;
     float: right;
     background: #e8e8f3;
-    -webkit-box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
     box-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
 }
 
@@ -99,6 +99,7 @@ body {
     text-shadow: 12px 12px 20px #7d7d83, -12px -12px 20px #ffffff;
     caret-color: #262626;
     outline: none;
+    margin: 0;
 }
 
 .table,
@@ -106,7 +107,7 @@ td,
 th {
     border: 0.08em solid #000;
     border-collapse: collapse;
-    width: 100vh;
+    width: 100dvh;
     border-radius: 0.4em;
     padding-left: 1.2em;
 }
@@ -127,7 +128,6 @@ th {
     border-left: 0.4em solid #330867;
     border-radius: 2em;
     color: #2f2d2d;
-    font-size: 1em;
     text-transform: capitalize;
     padding-left: 1.2em;
     width: 100%;
@@ -144,8 +144,17 @@ h2 {
     font-size: 2em;
 }
 
-.detail::-webkit-scrollbar,
-.nav::-webkit-scrollbar,
-.intro::-webkit-scrollbar {
-    display: none;
+
+@media screen and (max-width: 930px) {
+    #item1 {
+        width: 100%;
+    }
+
+    #name {
+        font-size: 100px;
+    }
+
+    .table {
+        width: 100%;
+    }
 }
