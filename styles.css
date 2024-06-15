@@ -16,15 +16,11 @@ body {
     top: 0;
     left: 0;
     display: flex;
-    justify-content: end;
-    display: flex;
-    height: 40px;
     z-index: 9999;
 }
 
 #menu ul {
     width: 100%;
-    text-align: right;
     margin: 0;
 }
 
@@ -145,16 +141,10 @@ h2 {
 }
 
 
-@media screen and (max-width: 930px) {
-    #item1 {
-        width: 100%;
-    }
-
-    #name {
-        font-size: 100px;
-    }
-
-    .table {
-        width: 100%;
+@media screen and (max-width: 1581px) {
+    
+    .to-hide
+    {
+        display: none;
     }
 }
